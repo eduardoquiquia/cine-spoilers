@@ -1,6 +1,8 @@
+import Profile from "./components/Profile"
+
 function App() {
   return (
-    <h1>Eduardo Quiquia</h1>
+    <Profile />
   )
 }
 
