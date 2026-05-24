@@ -4,8 +4,9 @@ E-commerce de contenido exclusivo de cine, construido con React + TypeScript + V
 
 ---
 
-## Integrantes
-- Eduardo Quiquia Soto
+## Laboratorio 10 - Comunicar componentes, definir estado y realizar eventos
+
+---
 
 ## Stack
 
@@ -19,52 +20,24 @@ E-commerce de contenido exclusivo de cine, construido con React + TypeScript + V
 
 ---
 
-## Paso 1 — Setup del proyecto
+## Evidencias
 
-### 1. Verificación de entorno
+### 1. Proyecto limpio, renderizado y sin errores
 
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20164346.png)
+![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20111150.png)
 
-### 2. Creación del proyecto con Vite
+### 2. Creación de componente con variables y uso.
 
-```bash
-npm create vite@latest cine-spoilers -- --template react-ts
-cd cine-spoilers
-npm install
-```
+![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20114144.png)
 
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20164628.png)
+### 3. Props en el componente creado
 
-### 3. Proyecto ejecutado por primera vez
+![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20114233.png)
 
-```bash
-npm run dev
-```
+### 4. Estado en el componente
 
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20165247.png)
+![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20115345.png)
 
-### 4. Inicialización del repositorio
+### 5. Manejo de estado mediante eventos
 
-```bash
-git init
-git add .
-git commit -m "feat: initial project setup with Vite + React + TypeScript + Tailwind"
-```
-
-<!-- Captura: git log mostrando el primer commit -->
-
-### 5. Modificación de App.tsx
-
-Se reemplazó el contenido de demo por el nombre del proyecto.
-
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20170747.png)
-
-### 6. Limpieza del proyecto base
-
-Se eliminaron los archivos de demo que genera Vite (`App.css`, `react.svg`, `vite.svg`) y se limpió `index.css` dejando solo el import de Tailwind.
-
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20171232.png)
-
-### 7. Primer componente creado
-
-![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20172032.png)
+![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20115210.png)
