@@ -23,7 +23,7 @@ E-commerce de contenido exclusivo de cine, construido con React + TypeScript + V
 
 ### 1. Verificación de entorno
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20164346.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20164346.png)
 
 ### 2. Creación del proyecto con Vite
 
@@ -33,7 +33,7 @@ cd cine-spoilers
 npm install
 ```
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20164628.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20164628.png)
 
 ### 3. Proyecto ejecutado por primera vez
 
@@ -41,7 +41,7 @@ npm install
 npm run dev
 ```
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20165247.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20165247.png)
 
 ### 4. Inicialización del repositorio
 
@@ -57,14 +57,14 @@ git commit -m "feat: initial project setup with Vite + React + TypeScript + Tail
 
 Se reemplazó el contenido de demo por el nombre del proyecto.
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20170747.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20170747.png)
 
 ### 6. Limpieza del proyecto base
 
 Se eliminaron los archivos de demo que genera Vite (`App.css`, `react.svg`, `vite.svg`) y se limpió `index.css` dejando solo el import de Tailwind.
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20171232.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20171232.png)
 
 ### 7. Primer componente creado
 
-![](docs/eduardo/Captura%20de%20pantalla%202026-05-13%20172032.png)
+![](docs/lab9/Captura%20de%20pantalla%202026-05-13%20172032.png)
