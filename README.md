@@ -94,6 +94,6 @@ Se verificó la respuesta obtenida desde la API mostrando los datos en la consol
 
 Se renderizaron los datos obtenidos desde la API utilizando componentes de React, permitiendo mostrar la información dinámicamente en la interfaz de usuario.
 
-![](docs/lab11/Captura%20de%20pantalla%202026-05-30-renderizado.png)
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20220718.png)
 
 ---
