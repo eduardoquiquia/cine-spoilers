@@ -1,43 +1,99 @@
 # 🎬 CineSpoilers
 
-E-commerce de contenido exclusivo de cine, construido con React + TypeScript + Vite.
+E-commerce de contenido exclusivo de cine desarrollado con React, TypeScript y Vite. Este proyecto servirá como base para consumir endpoints y renderizar información dinámica obtenida desde servicios externos.
 
 ---
 
-## Laboratorio 10 - Comunicar componentes, definir estado y realizar eventos
+# 📚 Laboratorio 11 - Consumir Endpoints y Renderizar Información
+
+## 🎯 Objetivo
+
+Preparar el entorno de desarrollo del proyecto mediante la instalación y configuración de las herramientas necesarias para la construcción de la interfaz de usuario.
 
 ---
 
-## Stack
+## 🛠️ Stack Tecnológico
 
-- **React 18** + **TypeScript** — UI y tipado estático
-- **Vite** — Build tool moderno y rápido
-- **Tailwind CSS v4** — Estilos por utilidades
-- **Zustand** — Estado global del carrito
-- **React Router v6** — Navegación
-- **Stripe** — Pasarela de pagos
-- **Lucide React** + **React Hot Toast** — Iconos y notificaciones
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS v4
+- ShadCN UI
+- Zustand
+- Stripe
+- Lucide React
+- React Hot Toast
 
 ---
 
-## Evidencias
+## 📸 Evidencias
 
-### 1. Proyecto limpio, renderizado y sin errores
+### 1. Crear proyecto y levantar
 
-![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20111150.png)
+Se creó el proyecto utilizando Vite y se verificó su correcto funcionamiento ejecutando el servidor de desarrollo.
 
-### 2. Creación de componente con variables y uso.
+![](docs/lab11/Captura%20de%20pantalla%202026-05-13%20165247.png)
 
-![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20114144.png)
+---
 
-### 3. Props en el componente creado
+### 2. Limpiar proyecto
 
-![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20114233.png)
+Se eliminaron los archivos y componentes generados por defecto para iniciar el desarrollo con una estructura limpia.
 
-### 4. Estado en el componente
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20200925.png)
 
-![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20115345.png)
+---
 
-### 5. Manejo de estado mediante eventos
+### 3. Instalar Tailwind CSS
 
-![](docs/lab10/Captura%20de%20pantalla%202026-05-24%20115210.png)
+Se instaló y configuró Tailwind CSS para facilitar la creación de interfaces modernas y responsivas.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20203556.png)
+
+---
+
+### 4. Configurar Alias
+
+Se configuraron alias de importación para simplificar las rutas dentro del proyecto y mejorar la mantenibilidad del código.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20210741.png)
+
+---
+
+### 5. Instalar ShadCN UI
+
+Se instaló y configuró ShadCN UI para utilizar componentes reutilizables y mantener una interfaz consistente.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20211927.png)
+
+### 6. Instalar y configurar Axios
+
+Se instaló la librería Axios para facilitar el consumo de APIs y se configuró para realizar peticiones HTTP dentro del proyecto.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20214123.png)
+
+---
+
+### 7. Fetching de datos
+
+Se realizó una solicitud HTTP a un servicio externo para obtener información de manera dinámica desde una API.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20215410.png)
+
+---
+
+
+### 8. Mostrar por consola
+
+Se verificó la respuesta obtenida desde la API mostrando los datos en la consola del navegador para validar la conexión y estructura de la información.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30%20215524.png)
+
+---
+
+### 9. Renderizado de información
+
+Se renderizaron los datos obtenidos desde la API utilizando componentes de React, permitiendo mostrar la información dinámicamente en la interfaz de usuario.
+
+![](docs/lab11/Captura%20de%20pantalla%202026-05-30-renderizado.png)
+
+---
